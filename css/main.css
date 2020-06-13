@@ -1,0 +1,163 @@
+
+/* Bootstrap padding fix */
+[class*="col-"] {
+  padding: 1rem;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+  font-size: large;
+}
+body {
+  background-image: url("../img/background_two.gif");
+  background-attachment: fixed;
+}
+h2 {
+  padding-left: 3%;
+}
+h2, h3, h4, h5 {
+  font-family: 'Signika', sans-serif;
+}
+
+.navbar {
+  margin-bottom:0;
+  border-radius:0;
+}
+.navbar-custom-color {
+  background-color: #5FCECE;
+}
+.p-custom-color {
+  background-color: #C65C5C;
+}
+.s-custom-color {
+  background-color: #63B78B;
+}
+
+.vertical-line {
+  width: 0.1%;
+  height: 60px;
+  background-color: black;
+}
+/* .carousel */
+.carousel-inner img {
+  width:100%;
+  height:46vw;
+  /* padding-left: 15vw;
+  padding-right: 15vw; */
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-text-modi {
+  margin-bottom: 15%;
+}
+.carousel-slide2 {
+  margin-bottom: 18%;
+}
+
+.title-h2 {
+  padding-top: 3%;
+}
+.ps-and-sol {
+  margin-top: 3%;
+}
+.product-intro {
+  padding: auto;
+  justify-content: center;
+}
+.para-paddings {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.para-paddings-intro {
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.product-intro-para {
+  font-size: large;
+}
+.design-hr {
+  width: 75%;
+}
+.functionalities-images {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}
+.working-images {
+  width:75%;
+  height: 75%;
+  object-fit: contain;
+}
+.sensor-used-hr {
+  width: 20%;
+}
+.circuit-image {
+  width:100%;
+  height: 50%;
+  object-fit: cover;
+}
+.design-images {
+  width: 20%;
+  height: 20%;
+}
+.design-images-two {
+  width: 50%;
+  height: 50%;
+}
+.design-images-three {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+.h2-underline {
+  margin-left:3%;
+  width: 17%;
+  height: 20%;
+  border: 1.5px solid #D14242;
+}
+.sub-green-underline {
+  text-decoration: underline;
+  text-decoration-color: #90E0B8;
+}
+.btn-color-select {
+  background-color: #CCF2DE;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.other-deliverables-links {
+  font-size: xx-Large;
+  color: #5FCECE;
+}
+.contact-text {
+  padding-left: 45%;
+  padding-right: 45%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+footer {
+  color: white;
+  background-color: #E58585;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.survey-results {
+  border: 2px solid lightslategrey;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+}
+.sub-text-carousel {
+  color: #63B78B;
+}
+.heading-text-carousel {
+  color: #C65C5C;
+}
